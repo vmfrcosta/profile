@@ -1,0 +1,159 @@
+body { 
+  background: url(images/background_08.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 28px;
+	color: rgba(20, 20, 20, 0.8);
+}
+
+a {
+	color: black;
+	font-size: 30px;
+}
+
+a:hover {
+	color: blue;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 24px;
+}
+
+.container {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.name {
+	font-family: 'Roboto', sans-serif;
+	color: #681313;
+}
+
+.card {
+		text-align: center;
+		background-color: rgba(256, 256, 256, 0.6);
+		width: 800px;
+		margin: 0 auto;
+	}
+
+@media (max-width: 800px) {
+	.card {
+		width: 600px;
+	}	
+}
+
+@media (max-width: 500px) {
+	.card {
+		width: 375px;
+	}	
+}
+
+
+@media (max-width: 300px) {
+	.card {
+		width: 250px;
+	}	
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.my-profile {
+	display: flex;
+	justify-content: center;
+}
+
+.bug-form {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.profile-pic img {
+	border: 1px solid black;
+	border-radius: 20%;
+  	padding: 0px;
+  	width: 200px;
+  	margin: 0px;
+}
+
+.augmented-hover:hover {
+	font-size: 40px;
+}
+
+.small-input {
+	padding: 5px;
+}
+
+.big-input {
+	width: 300px;
+	height: 100px;
+	text-align: top;
+	padding: 5px;
+	margin: 5px;
+}
+
+.small-inputs {
+	margin: 0px 10px;
+}
+
+.big-inputs {
+	margin: 0px 10px;
+}
+
+.adjusted-margin {
+	margin: 5px 0px 5px 0px;
+}
+
+.submit-btn {
+	background-color: black;
+	color: white;
+	padding: 5px;
+	border: none;
+	margin: 5px;
+	width: 200px;
+}
+
+.profile-info {
+	margin: 10px 20px;
+}
+
+.profile-pic {
+	margin: 10px 20px;
+}
+
+.social-media {
+	display: flex;
+	justify-content: center;
+}
+
+.social-media-icon {
+	margin: 0px 10px;
+}
+
+.linkedin:hover {
+	color: #0077B5;
+}
+
+.github:hover {
+	color: #24292E;
+}
+
+.instagram:hover {
+	color: #DC5F9A;
+}
